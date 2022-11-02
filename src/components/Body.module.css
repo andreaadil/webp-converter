@@ -1,0 +1,76 @@
+/* LAYOUT */
+.flex {
+    display: flex;
+    flex-direction:row;
+    gap: 150px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    
+}
+
+.col1 {
+    width: 66%;
+}
+
+.col2 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .flex {
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .col1, .col2 {
+        width: 100%;
+    }
+}
+
+
+/* IMAGE PREVIEW */
+img {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* BUTTON */
+button {
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #DB9D47;
+    border-radius: 25px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition-duration: .3s;
+}
+
+button svg {
+    width: 18px;
+    vertical-align: baseline;
+    padding-right: 5px;
+    margin-bottom: -1px;
+}
+button a {
+    vertical-align: baseline;
+}
+
+button:hover {
+    background-color:#ffc800;
+}
+
+.downloadButton {
+    display: none;
+}

@@ -1,0 +1,19 @@
+.copy {
+    text-align: center;
+    font-size: 14px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (min-height: 1140px) and (min-width: 1024px) {
+    .block {
+       position:absolute;
+       bottom: 25px; 
+       width: 50%;
+       left: 25%;
+    }
+}

@@ -1,0 +1,14 @@
+.icon {
+    width: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+span {
+    padding-left: 15px;
+    font-size: 32px;
+    align-self: center;
+}
